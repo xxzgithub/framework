@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bwie.com.textframe.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rd_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher_round"
+            android:gravity="center"
+            android:text="首页"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_classify"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher_round"
+            android:gravity="center"
+            android:text="分类"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_car"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher_round"
+            android:gravity="center"
+            android:text="购物车"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher_round"
+            android:gravity="center"
+            android:text="我的"
+            />
+    </RadioGroup>
+</RelativeLayout>
